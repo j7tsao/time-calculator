@@ -127,6 +127,7 @@ def add_time(start, duration, start_day = None):
 
     return new_time
 
+# Testing 
 print(add_time("3:00 PM", "3:10"))
 print(add_time("11:30 AM", "2:32", "Monday"))
 print(add_time("11:43 AM", "00:20"))
